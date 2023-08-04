@@ -1,8 +1,76 @@
 body {
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+
+justify-content: center;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin:0px 100px;
+  background-color: white;
+  
 }
 
 a {
   color: #00B7FF;
+}
+#home{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items:self-start;
+ background-image: url("../images/cinema.jpg");
+  background-repeat: no-repeat;
+  width:auto;
+  height: 600px;
+  gap:40px
+
+}
+#home h1{
+color:white;
+font-size: 5rem;
+position: relative;
+top:100px
+
+}
+#home button{
+  position: relative;
+  top:80px;
+  background-color: white;
+  height: 40px;
+  width: 200px;
+  border-width: 0;
+  border-radius: 40px;
+  color: #00B7FF;
+}
+
+#home button:hover{
+background-color: #00B7FF;
+  color: white;
+}
+
+#pelis {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 30px;
+
+}
+#order {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#oneFilm {
+display: flex;
+justify-content: left;
+gap: 20px;
+padding-top: 50px;
+
+}
+
+#horas {
+  display: flex;
+  flex-direction: row;
+  
+  gap: 3px;
 }

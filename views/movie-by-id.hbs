@@ -1,0 +1,26 @@
+<div>
+
+  <div id="oneFilm">
+
+    <div><img
+        src="{{this.movieById.image}}"
+        alt="{{this.movieById.title}}"
+        width="230px"
+      /></div>
+    <div>
+      <a href="/movies">Go back</a>
+      <h3>{{this.movieById.title}}</h3>
+      <h4>{{this.movieById.director}}</h4>
+      <h5>Stars</h5>
+      {{#each this.movieById.stars}}
+        <li>{{this}}</li>
+      {{/each}}
+      <p>{{this.movieById.description}}</p>
+      
+      <div id="horas">
+        {{#each this.movieById.showtimes}}
+          <p > {{this}} |</p>
+        {{/each}}</div>
+    </div>
+  </div>
+</div>
