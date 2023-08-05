@@ -28,12 +28,14 @@ a {
 color:white;
 font-size: 5rem;
 position: relative;
-top:100px
+top:50px;
+right: 100px;
 
 }
 #home button{
   position: relative;
-  top:80px;
+  top: 50px;
+  right: 100px;
   background-color: white;
   height: 40px;
   width: 200px;
